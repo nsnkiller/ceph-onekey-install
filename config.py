@@ -13,9 +13,9 @@ host_ip_dict = {"ceph-0": "192.168.204.80",
                 "ceph-2": "192.168.204.82"}
 
 
-host_disks_dict = {"ceph-0": ["/dev/vdb", "/dev/vdc", "/dev/vdd"],
-                   "ceph-1": ["/dev/vdb", "/dev/vdc", "/dev/vdd"],
-                   "ceph-2": ["/dev/vdb", "/dev/vdc", "/dev/vdd"]}
+host_disks_dict = {"ceph-0": ["/dev/sdb", "/dev/sdc", "/dev/sdd"],
+                   "ceph-1": ["/dev/sdb", "/dev/sdc", "/dev/sdd"],
+                   "ceph-2": ["/dev/sdb", "/dev/sdc", "/dev/sdd"]}
 
 
 ceph_rpm_path = "/root/ceph-luminous"
