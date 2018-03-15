@@ -150,7 +150,7 @@ def uninstall_unnecessary_rpm():
 
 
 def ceph_deploy_install():
-    uninstall_unnecessary_rpm()
+    # uninstall_unnecessary_rpm()
     exec_cmd("ceph-deploy -q install  --no-adjust-repos " + __generate_node_str(config.hosts))
 
 
